@@ -17,3 +17,13 @@ git init directorio
 git clone repositoriogit
 ```
 
+#### Añadir todos los archivos a staged
+```bash
+git add .
+```
+
+#### Quitar de staged
+```bash
+git rm nombrearchivo
+```
+
