@@ -4,7 +4,16 @@
 Se el considera repositorio remoto  
 
 ### 2.3
-![img](img/1.PNG)  
-![img](img/2.PNG)
+![](img/1.PNG)  
+![](img/2.PNG)
 
 ### 2.4
+#### Inicializar repositorio
+```bash
+git init directorio
+``` 
+#### Clonar repositorio
+```bash
+git clone repositoriogit
+```
+
