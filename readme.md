@@ -27,3 +27,12 @@ git add .
 git rm nombrearchivo
 ```
 
+#### Ver el estado de los archivos a guardar
+```bash
+git status
+```
+
+#### Ver el repositorio remoto
+```bash
+git remote -v
+```
