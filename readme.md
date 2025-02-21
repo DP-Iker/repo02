@@ -36,3 +36,13 @@ git status
 ```bash
 git remote -v
 ```
+
+#### Subir por primera vez al repositorio si es creado en remoto
+```bash
+git push -u origin main
+```
+
+#### Subir los cambios en commited
+```bash
+git push
+```
