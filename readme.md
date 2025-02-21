@@ -57,7 +57,7 @@ git pull
 git log
 ```
 
-#### Ver historial de cambios del repositorio en formato dog
+#### Ver historial de cambios del repositorio en formato adog
 ```bash
-git adog
+git log --all --decorate --oneline --graph
 ```
