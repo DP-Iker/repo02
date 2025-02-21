@@ -46,3 +46,18 @@ git push -u origin main
 ```bash
 git push
 ```
+
+#### Bajar datos del repositorio remoto
+```bash
+git pull
+```
+
+#### Ver historial de cambios del repositorio
+```bash
+git log
+```
+
+#### Ver historial de cambios del repositorio en formato dog
+```bash
+git log --decorate --oneline --graph
+```
