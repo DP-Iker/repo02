@@ -8,11 +8,11 @@ Se el considera repositorio remoto
 ![](img/2.PNG)
 
 ### 2.4
-#### Inicializar repositorio
+#### Inicializar repositorio en local
 ```bash
 git init directorio
 ``` 
-#### Clonar repositorio
+#### Clonar repositorio remoto
 ```bash
 git clone repositoriogit
 ```
@@ -32,19 +32,19 @@ git rm nombrearchivo
 git status
 ```
 
-#### Ver el repositorio remoto
+#### Ver el repositorio remoto casociado
 ```bash
 git remote -v
 ```
 
-#### Subir por primera vez al repositorio si es creado en remoto
-```bash
-git push -u origin main
-```
-
-#### Subir los cambios en commited
+#### Subir los cambios del repositorio local al remoto
 ```bash
 git push
+```
+
+#### Subir los cambios al repositorio remoto si éste no tiene la rama afectada
+```bash
+git push -u origin main
 ```
 
 #### Bajar datos del repositorio remoto
@@ -59,5 +59,5 @@ git log
 
 #### Ver historial de cambios del repositorio en formato dog
 ```bash
-git log --decorate --oneline --graph
+git adog
 ```
